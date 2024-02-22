@@ -14,7 +14,7 @@ def delete_sim(sim):
     df.to_excel('sims.xlsx', index=False)
 
 def main():
-    st.title('SIM Viewer and Deleter')
+    st.title('SIM Genrator for 3UK')
 
     sims = read_sim_data()
 
